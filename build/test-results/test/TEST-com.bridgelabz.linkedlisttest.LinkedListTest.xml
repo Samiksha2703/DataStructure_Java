@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.linkedlisttest.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-25T09:52:55" hostname="LAPTOP-2B0EPGRS" time="0.05">
-  <properties/>
-  <testcase name="whenPassThreeNumber_LinkedListShouldPassedTest()" classname="com.bridgelabz.linkedlisttest.LinkedListTest" time="0.05"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
