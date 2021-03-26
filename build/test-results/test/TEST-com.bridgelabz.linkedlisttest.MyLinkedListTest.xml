@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.linkedlisttest.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-26T05:38:22" hostname="LAPTOP-2B0EPGRS" time="0.054">
+<testsuite name="com.bridgelabz.linkedlisttest.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-26T05:58:50" hostname="LAPTOP-2B0EPGRS" time="0.05">
   <properties/>
-  <testcase name="given3Numbers_WhenInsertingSecondInBetween_ShouldPassLinkedListTest()" classname="com.bridgelabz.linkedlisttest.MyLinkedListTest" time="0.054"/>
-  <system-out><![CDATA[My Nodes : 56->30->70
+  <testcase name="givenFirstElelment_WhenDeleted_ShouldPassLinkedListTest()" classname="com.bridgelabz.linkedlisttest.MyLinkedListTest" time="0.05"/>
+  <system-out><![CDATA[My Nodes : 30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
