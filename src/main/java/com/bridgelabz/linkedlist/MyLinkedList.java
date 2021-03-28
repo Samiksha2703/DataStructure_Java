@@ -57,20 +57,22 @@ public class MyLinkedList {
         return tempNode;
     }
 
-//    public INode popLast(){
-//        INode tempNode = head;
-//        while (!tempNode.getNext().equals((tail))){
-//            tempNode = tempNode.getNext();
-//        }
-//        this.tail = tempNode;
-//        tempNode = tempNode.getNext();
-//        return tempNode;
-//    }
-
     public boolean serchElement(INode serchNode){
         INode tempNode = this.head;
         while (tempNode != null){
             if (tempNode.getKey().equals(serchNode.getKey())){
+                return true;
+            }
+            tempNode = tempNode.getNext();
+        }
+        return false;
+    }
+
+    public boolean serchAndInsertElement(INode serchNode, INode insertNode){
+        INode tempNode = this.head;
+        while (tempNode != null){
+            if (tempNode.getKey().equals(serchNode.getKey())){
+                insert(tempNode, insertNode);
                 return true;
             }
             tempNode = tempNode.getNext();
