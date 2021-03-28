@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.linkedlisttest.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-28T04:48:09" hostname="LAPTOP-2B0EPGRS" time="0.064">
+<testsuite name="com.bridgelabz.linkedlisttest.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-28T05:28:02" hostname="LAPTOP-2B0EPGRS" time="0.152">
   <properties/>
-  <testcase name="givenElements_SearchFirstNodeAndInsertSecondNode_ShouldPassTest()" classname="com.bridgelabz.linkedlisttest.MyLinkedListTest" time="0.064"/>
-  <system-out><![CDATA[My Nodes : 56->30->70
-My Nodes : 56->30->40->70
+  <testcase name="givenElements_SearchAndDelete_ShouldReturnSize()" classname="com.bridgelabz.linkedlisttest.MyLinkedListTest" time="0.152"/>
+  <system-out><![CDATA[My Nodes : 56->30->40->70
+Linked List size before deleting element : 4
+Linked List size after deleting element : 3
+My Nodes : 56->30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
